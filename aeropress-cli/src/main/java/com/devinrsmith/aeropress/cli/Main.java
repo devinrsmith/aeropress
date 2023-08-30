@@ -34,7 +34,7 @@ public class Main {
         Set.of("io.deephaven.util.annotations.VisibleForTesting");
     for (URI uri :
         publiclyReachableClasspathElements(assumedClasspath, jarUri, excludedAnnotations)) {
-      System.out.println(uri);
+      System.out.println(Path.of(uri.getPath()).getFileName());
     }
   }
 
