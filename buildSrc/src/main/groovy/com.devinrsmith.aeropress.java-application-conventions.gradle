@@ -1,0 +1,4 @@
+plugins {
+    id 'com.devinrsmith.aeropress.java-common-conventions'
+    id 'application'
+}

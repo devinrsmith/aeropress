@@ -1,0 +1,18 @@
+plugins {
+    id 'com.devinrsmith.aeropress.java-application-conventions'
+    id 'com.diffplug.spotless' version '6.21.0'
+}
+
+dependencies {
+    implementation 'io.github.classgraph:classgraph:4.8.162'
+}
+
+application {
+    mainClass = 'com.devinrsmith.aeropress.cli.Main'
+}
+
+spotless {
+    java {
+        googleJavaFormat()
+    }
+}
