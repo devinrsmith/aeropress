@@ -1,6 +1,6 @@
 plugins {
     id 'com.devinrsmith.aeropress.java-application-conventions'
-    id 'com.diffplug.spotless' version '6.21.0'
+    id 'com.diffplug.spotless' version '6.25.0'
 }
 
 dependencies {
