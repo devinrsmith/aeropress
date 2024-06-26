@@ -1,0 +1,14 @@
+[versions]
+classgraph = "4.8.170"
+junit = "5.10.0"
+spotless = "6.25.0"
+
+[libraries]
+classgraph = { module = "io.github.classgraph:classgraph", version.ref = "classgraph" }
+
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }

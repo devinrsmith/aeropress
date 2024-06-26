@@ -1,10 +1,10 @@
 plugins {
     id 'com.devinrsmith.aeropress.java-application-conventions'
-    id 'com.diffplug.spotless' version '6.25.0'
+    alias(libs.plugins.spotless)
 }
 
 dependencies {
-    implementation 'io.github.classgraph:classgraph:4.8.170'
+    implementation libs.classgraph
 }
 
 application {
