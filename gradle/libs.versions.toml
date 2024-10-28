@@ -1,5 +1,5 @@
 [versions]
-classgraph = "4.8.176"
+classgraph = "4.8.177"
 junit = "5.11.3"
 spotless = "6.25.0"
 
