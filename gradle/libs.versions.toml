@@ -1,7 +1,7 @@
 [versions]
 classgraph = "4.8.177"
 junit = "5.11.3"
-spotless = "6.25.0"
+spotless = "7.0.2"
 
 [libraries]
 classgraph = { module = "io.github.classgraph:classgraph", version.ref = "classgraph" }
